@@ -1,0 +1,95 @@
+/* Previous CSS remains the same */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 30px;
+            color: #333;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+            color: #555;
+            font-weight: bold;
+        }
+
+        input, select, textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-size: 16px;
+        }
+
+        .payment-methods {
+            display: flex;
+            gap: 20px;
+            margin-bottom: 20px;
+        }
+
+        .payment-method {
+            display: flex;
+            align-items: center;
+        }
+
+        .payment-method input {
+            width: auto;
+            margin-right: 8px;
+        }
+
+        button {
+            width: 100%;
+            padding: 12px;
+            background-color: #03164c;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+
+        .ewallet-instructions {
+            display: none;
+            padding: 15px;
+            background-color: #f8f9fa;
+            border-radius: 4px;
+            margin-top: 10px;
+        }
+
+        @media (max-width: 480px) {
+            .container {
+                padding: 15px;
+            }
+            
+            .payment-methods {
+                flex-direction: column;
+            }
+        }
